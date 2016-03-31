@@ -1,0 +1,32 @@
+{
+  "name": "low-vision-stylesheets",
+  "version": "0.0.0",
+  "description": "PostCSS plugin Framework for transforming CSS for visually impaired people",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "low-vision"
+  ],
+  "author": "Azat S. <to@azat.io>",
+  "license": "MIT",
+  "repository": "azat-io/low-vision-stylesheets",
+  "bugs": {
+    "url": "https://github.com/azat-io/low-vision-stylesheets/issues"
+  },
+  "homepage": "https://github.com/azat-io/low-vision-stylesheets",
+  "dependencies": {
+    "postcss": "^5.0.16"
+  },
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "eslint": "^2.1.0",
+    "eslint-config-postcss": "^2.0.0"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
